@@ -12,7 +12,7 @@ namespace MyLeassing.Web.Data.Entities
 
         public User User { get; set; }
 
-        public ICollection<Contract> contracts { get; set; }
+        public ICollection<Contract> Contracts { get; set; }
 
         public ICollection<Property> Properties { get; set; }
 
